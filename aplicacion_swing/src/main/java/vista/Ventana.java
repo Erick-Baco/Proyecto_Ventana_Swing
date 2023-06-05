@@ -139,6 +139,7 @@ public class Ventana extends JFrame {
         txtModProcesador = new TextField(20);
         txtModURL = new TextField(50);
 
+
         panel4.add(lblModId);
         panel4.add(txtModId);
         panel4.add(lblModMarca);

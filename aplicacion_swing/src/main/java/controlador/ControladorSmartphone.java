@@ -54,7 +54,9 @@ public class ControladorSmartphone extends MouseAdapter {
                                     "Agregado.",
                                         "Aviso.",
                                             JOptionPane.INFORMATION_MESSAGE);
+/*                modelo.cargar();
 
+                this.ventana.getTblSmartphone().setModel(modelo);*/
                 this.ventana.getTblSmartphone().updateUI();
             }else {
                 JOptionPane.showMessageDialog(ventana,
@@ -82,7 +84,9 @@ public class ControladorSmartphone extends MouseAdapter {
                                       "Modificado.",
                                          "Aviso.",
                                               JOptionPane.INFORMATION_MESSAGE);
+                modelo.cargar();
 
+                this.ventana.getTblSmartphone().setModel(modelo);
                 this.ventana.getTblSmartphone().updateUI();
             }else {
                 JOptionPane.showMessageDialog(ventana,
@@ -115,7 +119,9 @@ public class ControladorSmartphone extends MouseAdapter {
                                       "Eliminado.",
                                          "Aviso.",
                                               JOptionPane.INFORMATION_MESSAGE);
+                modelo.cargar();
 
+                this.ventana.getTblSmartphone().setModel(modelo);
                 this.ventana.getTblSmartphone().updateUI();
             }else {
                 JOptionPane.showMessageDialog(ventana,
